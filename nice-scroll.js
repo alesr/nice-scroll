@@ -3,17 +3,17 @@ var niceScroll = (function () {
 
   function pimpMyScroll(origin) {
     switch (origin) {
-      case 'why-box-link':
-        return _scrollMeTo(target = $('.why-box-tile'));
+      case 'div1':
+        return _scrollMeTo(target = $('.div1'));
         break;
-      case 'shipping-link':
-        return _scrollMeTo(target = $('.shipping-tile'));
+      case 'div2':
+        return _scrollMeTo(target = $('.div2'));
         break;
-      case 'contact-link':
-        return _scrollMeTo(target = $('.site-contactForm'));
+      case 'div3':
+        return _scrollMeTo(target = $('.div3'));
         break;
-      case 'logo-link':
-        return _scrollMeTo(target = $('.main-tile'));
+      case 'div4':
+        return _scrollMeTo(target = $('.div4'));
         break;
       default:
         console.log("Get a life!");
