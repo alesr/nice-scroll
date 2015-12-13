@@ -16,7 +16,7 @@ var niceScroll = (function () {
         return _scrollMeTo(target = $('.div4'));
         break;
       default:
-        console.log("Get a life!");
+        console.log("Can't help");
     }
   }
 
