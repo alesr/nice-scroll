@@ -1,4 +1,4 @@
-// niceScroll inda house
+
 var niceScroll = (function () {
 
   function pimpMyScroll(origin) {
