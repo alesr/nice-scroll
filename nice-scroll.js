@@ -1,6 +1,7 @@
 
 var niceScroll = (function () {
-
+  
+  /*
   function pimpMyScroll(origin) {
     switch (origin) {
       case 'div1':
@@ -18,6 +19,11 @@ var niceScroll = (function () {
       default:
         console.log("Can't help");
     }
+  }
+  */
+  
+  function pimpMyScroll(target) {
+    return _scrollMeTo(target = $("'." + target + "'"))
   }
 
   function _scrollMeTo($target) {
